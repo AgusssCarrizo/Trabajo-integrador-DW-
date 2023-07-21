@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 992px;
+	background-color: rgb(253, 252, 238);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header {
+	min-width: 992px;
+	height: 60px;
+	background: rgb(1, 1, 52);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar {
+	height: 80%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navbar ul {
+	display: flex;
+	gap: 40px;
+	color: white;
+	list-style: none;
+	font-size: 20px;
+}
+
+.navbar li {
+	display: flex;
+	gap: 8px;
+	cursor: pointer;
+}
+
+.login {
+	height: 100vh;
+	width: 100%;
+	background-image: url(/img/Diseño\ sin\ título.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.fondo {
+	height: 100%;
+	width: 100%;
+}
+
+.trabajos {
+	height: 400px;
+	width: 100%;
+
+	padding-top: 80px;
+}
+
+.container {
+	/* border: 2px solid white; */
+	border-radius: 1.5rem;
+	height: 400px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(/img/Collage\ de\ Fotos\ Vertical\ Moda\ Elegante\ Sencillo\ Minimalista\ Neutral\ Blanco\ y\ Negro.png);
+
+	color: white;
+	padding: 1%;
+	text-align: center;
+}
+
+.muestras {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero {
+	display: flex;
+	width: 70%;
+}

@@ -1,62 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<script
-			src="https://kit.fontawesome.com/ac3ec41e50.js"
-			crossorigin="anonymous"></script>
-		<title>Document</title>
-	</head>
-	<body>
-		<!-- <header>
-			<img src="" alt="" />
-			<nav class="navbar">
-				<ul>
-					<li><i class="fa-brands fa-instagram"></i>Instagram</li>
-					<li><i class="fa-brands fa-whatsapp"></i>Whatsapp</li>
-				</ul>
-			</nav>
-		</header> -->
-		<main>
-			<section class="login"></section>
-			<section class="hero">
-				<div class="perfil"><img src="/img/Sin foto.jpg" alt="" /></div>
-				<div class="info">
-					<h1>Ignacio Carrizo</h1>
-					<p>
-						Mi nombre es Ignacio Carrizo, comencé mi carrera de fotografo
-						sacando fotos a los paisajes, luego me dediqué a capturar los
-						momentos mas lindos en cada etapa de las personas.
-					</p>
-				</div>
-			</section>
-			<section class="trabajos">
-				<h1>Mis trabajos</h1>
-				<div class="muestras">
-					<div class="container">
-						<h2>Casamiento</h2>
-						<p>Estamos en esos momentos inolvidables del amor</p>
-					</div>
-					<div class="container">
-						<h2>Book de 15</h2>
-						<p>Estamos en esos momentos inolvidables del amor</p>
-					</div>
-					<div class="container">
-						<h2>Fiestas</h2>
-						i1|
-						<p>Estamos en esos momentos inolvidables del amor</p>
-					</div>
-				</div>
-			</section>
-			<section class="imagenes">
-				<div class="casamiento"></div>
-				<div class="book15"></div>
-				<div class="fiestas"></div>
-			</section>
-			<div class="beneficio"></div>
-		</main>
-		<footer></footer>
-	</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <script
+         src="https://kit.fontawesome.com/ac3ec41e50.js"
+         crossorigin="anonymous"></script>
+      <title>Document</title>
+   </head>
+   <body>
+      <!-- <HEADER>
+         <IMG SRC="" ALT="" />
+         <NAV CLASS="NAVBAR">
+            <UL>
+               <LI><I CLASS="FA-BRANDS FA-INSTAGRAM"></I>INSTAGRAM</LI>
+               <LI><I CLASS="FA-BRANDS FA-WHATSAPP"></I>WHATSAPP</LI>
+            </UL>
+         </NAV>
+      </HEADER> -->
+      <main>
+         <section id="login">
+            <div class="login-container">
+               <h1>INICIA SESION</h1>
+               <div class="login-send">
+                  <label for="email"
+                     >Correo electronico
+                     <input
+                        type="email"
+                        placeholder="ejemplo@gmail.com"
+                        id="email" />
+                  </label>
+                  <label for="pass"
+                     >Contraseña
+                     <input
+                        type="password"
+                        placeholder=" • • • • • • • • • • • • • •"
+                        id="pass" />
+                  </label>
+                  <label for="">
+                     <input type="checkbox" />
+                     Recordarme
+                  </label>
+
+                  <a href="#"> ¿Olvidaste tu contraseña?</a>
+               </div>
+               <button>ENVIAR</button>
+               <a href="#hero">omitir</a>
+            </div>
+         </section>
+         <section id="hero">
+            <div class="perfil"><img src="/img/Sin foto.jpg" alt="" /></div>
+            <div class="info">
+               <h1><i class="fa-solid fa-camera-retro"></i>IGNACIO CARRIZO</h1>
+               <p>
+                  Mi nombre es Ignacio Carrizo, comencé mi carrera de fotografo
+                  sacando fotos a los paisajes, luego me dediqué a capturar los
+                  momentos mas lindos en cada etapa de las personas.
+               </p>
+            </div>
+         </section>
+         <section id="trabajos">
+            <h1>MIS TRABAJOS</h1>
+            <div class="muestras">
+               <div class="container">
+                  <a href="#casamiento"> <h2>Casamiento</h2> </a>
+               </div>
+               <div class="container">
+                  <h2>Book de 15</h2>
+                  <p>Estamos en esos momentos inolvidables del amor</p>
+               </div>
+               <div class="container">
+                  <h2>Fiestas</h2>
+                  i1|
+                  <p>Estamos en esos momentos inolvidables del amor</p>
+               </div>
+            </div>
+         </section>
+
+         <section id="imagenes">
+            <div id="casamiento">
+               <h1>
+                  <img src="/img/Casamiento/wedding-rings.png" alt="" />
+                  Casamientos
+               </h1>
+               <div class="casamiento-container">
+                  <img src="/img/Casamiento/IMG_9779.jpg" alt="" />
+
+                  <img src="/img/Casamiento/IMG_9795.jpg" alt="" />
+
+                  <img src="/img/Casamiento/IMG_9800.jpg" alt="" />
+
+                  <img src="/img/Casamiento/IMG_9808.jpg" alt="" />
+
+                  <img src="/img/Casamiento/IMG_9930.jpg" alt="" />
+
+                  <img src="/img/Casamiento/IMG_9932.jpg" alt="" />
+               </div>
+
+               <button>MOSTRAR MAS</button>
+            </div>
+
+            <div class="book15"></div>
+            <div class="fiestas"></div>
+         </section>
+         <div class="beneficio"></div>
+      </main>
+      <footer></footer>
+   </body>
 </html>

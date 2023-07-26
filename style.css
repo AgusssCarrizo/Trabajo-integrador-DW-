@@ -29,7 +29,7 @@ header {
 
 .navbar {
 	height: 80%;
-	width: 30%;
+	width: 40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,6 +49,7 @@ header {
 }
 .navbar a {
 	color: white;
+	text-decoration: none;
 }
 .image-label {
 	color: white;
@@ -102,6 +103,7 @@ header {
 	justify-content: space-around;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	position: relative;
 }
 
 .login-send {
@@ -172,8 +174,8 @@ header {
 
 .volver {
 	position: absolute;
-	left: 33%;
-	top: 62%;
+	left: -6%;
+	top: 71%;
 	font-size: 40px;
 	background-color: rgb(155, 155, 169);
 	height: 60px;

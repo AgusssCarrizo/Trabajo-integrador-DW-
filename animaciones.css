@@ -1,0 +1,29 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 65px;
+}
+
+.in-me,
+.navbar li {
+	position: relative;
+	padding: 0;
+}
+.in-me a::after,
+.navbar li::after {
+	content: "";
+	height: 2px;
+	width: 100%;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.15s ease;
+}
+
+.in-me a:hover::after,
+.navbar li:hover::after {
+	transform-origin: bottom left;
+	transform: scaleX(1);
+}

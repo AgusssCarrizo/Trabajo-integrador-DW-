@@ -26,6 +26,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
+	z-index: 3;
 }
 
 .navbar {
@@ -215,7 +216,7 @@ header {
 
 #trabajos {
 	height: 400px;
-	width: 100%;
+	width: 80%;
 
 	/* padding-top: 80px; */
 	display: flex;
@@ -241,11 +242,7 @@ header {
 	color: black;
 }
 
-.container:nth-child(1) {
-	background-image: url(/img/Casamiento/container.jpg);
-	background-size: contain;
-}
-.container:nth-child(1) h2 {
+.container h2 {
 	background: linear-gradient(
 		0deg,
 		rgba(214, 212, 217, 0.5) 0%,
@@ -256,13 +253,21 @@ header {
 	text-align: center;
 	border-radius: 0.3rem;
 }
-.container:nth-child(2) {
+.container:nth-child(1) {
 	background-image: url(/img/Casamiento/container.jpg);
-	background-size: contain;
+	background-size: cover;
+}
+
+.container:nth-child(2) {
+	background-image: url(/img/Books-15/quince.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .container:nth-child(3) {
-	background-image: url(/img/Casamiento/container.jpg);
-	background-size: contain;
+	background-image: url(/img/FIESTA/Fiesta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 80%;
 }
 
 .container:hover {
@@ -330,7 +335,7 @@ header {
 
 .casamiento-container img:nth-child(1) {
 	height: 400px;
-	width: 400px;
+	width: 500px;
 }
 .casamiento-container img:nth-child(2) {
 	height: 400px;
@@ -342,7 +347,7 @@ header {
 }
 .casamiento-container img:nth-child(4) {
 	height: 400px;
-	width: 400px;
+	width: 500px;
 }
 .casamiento-container img:nth-child(5) {
 	height: 400px;
@@ -384,7 +389,7 @@ header {
 
 .book-container img:nth-child(1) {
 	height: 350px;
-	width: 360px;
+	width: 400px;
 }
 .book-container img:nth-child(2) {
 	height: 350px;
@@ -393,19 +398,19 @@ header {
 
 .book-container img:nth-child(3) {
 	height: 350px;
-	width: 250px;
+	width: 280px;
 }
 .book-container img:nth-child(4) {
 	height: 350px;
-	width: 350px;
+	width: 300px;
 }
 .book-container img:nth-child(5) {
 	height: 350px;
-	width: 250px;
+	width: 280px;
 }
 .book-container img:nth-child(6) {
 	height: 350px;
-	width: 250px;
+	width: 270px;
 }
 
 #fest {
@@ -443,7 +448,7 @@ header {
 }
 .fest-container img:nth-child(2) {
 	height: 350px;
-	width: 450px;
+	width: 480px;
 }
 .fest-container img:nth-child(3) {
 	height: 350px;
@@ -477,7 +482,7 @@ header {
 	height: 550px;
 	width: 1000px;
 
-	position: absolute;
+	position: relative;
 	top: 0px;
 }
 .container-ben {
@@ -546,4 +551,40 @@ header {
 	font-size: 20px;
 	color: black;
 	text-align: center;
+}
+
+.contacto {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.contactame {
+	width: 40%;
+	height: 100px;
+
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	padding: 40px;
+	background: rgb(1, 1, 52);
+	color: white;
+}
+.datos {
+	width: 60%;
+	height: 100px;
+
+	display: flex;
+	align-items: start;
+	justify-content: space-around;
+	flex-direction: column;
+	padding-left: 40px;
+	background: rgb(1, 1, 52);
+}
+
+.datos a {
+	color: white;
+	text-decoration: none;
+}
+.datos i {
+	margin-right: 5px;
 }

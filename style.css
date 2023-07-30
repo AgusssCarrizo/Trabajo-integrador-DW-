@@ -19,12 +19,13 @@ main {
 }
 
 header {
-	min-width: 992px;
+	width: 100vw;
 	height: 60px;
 	background: rgb(1, 1, 52);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
 }
 
 .navbar {
@@ -33,6 +34,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: sticky;
 }
 .navbar ul {
 	display: flex;
@@ -277,6 +279,23 @@ header {
 #imagenes {
 	display: flex;
 	flex-direction: column;
+	max-width: 1200px;
+	margin-top: 100px;
+	gap: 20px;
+}
+
+#imagenes button {
+	height: 40px;
+	width: 120px;
+	font-size: 12px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	cursor: pointer;
+}
+#imagenes {
+	display: flex;
+	flex-direction: column;
 	width: 80%;
 	margin-top: 100px;
 }
@@ -310,26 +329,221 @@ header {
 }
 
 .casamiento-container img:nth-child(1) {
-	height: 300px;
+	height: 400px;
 	width: 400px;
 }
 .casamiento-container img:nth-child(2) {
-	height: 300px;
-	width: 200px;
+	height: 400px;
+	width: 250px;
 }
 .casamiento-container img:nth-child(3) {
-	height: 300px;
+	height: 400px;
 	width: 400px;
 }
 .casamiento-container img:nth-child(4) {
-	height: 300px;
+	height: 400px;
 	width: 400px;
 }
 .casamiento-container img:nth-child(5) {
-	height: 300px;
+	height: 400px;
 	width: 400px;
 }
 .casamiento-container img:nth-child(6) {
-	height: 300px;
+	height: 400px;
 	width: 250px;
+}
+
+#book15 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	gap: 40px;
+}
+#book15 h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+#book15 h1 img {
+	height: 30px;
+	width: 30px;
+}
+.book-container {
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.book-container img:nth-child(1) {
+	height: 350px;
+	width: 360px;
+}
+.book-container img:nth-child(2) {
+	height: 350px;
+	width: 310px;
+}
+
+.book-container img:nth-child(3) {
+	height: 350px;
+	width: 250px;
+}
+.book-container img:nth-child(4) {
+	height: 350px;
+	width: 350px;
+}
+.book-container img:nth-child(5) {
+	height: 350px;
+	width: 250px;
+}
+.book-container img:nth-child(6) {
+	height: 350px;
+	width: 250px;
+}
+
+#fest {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	gap: 40px;
+}
+#fest h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+#fest h1 img {
+	height: 30px;
+	width: 30px;
+}
+.fest-container {
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.fest-container img:nth-child(1) {
+	height: 350px;
+	width: 310px;
+}
+.fest-container img:nth-child(2) {
+	height: 350px;
+	width: 450px;
+}
+.fest-container img:nth-child(3) {
+	height: 350px;
+	width: 250px;
+}
+.fest-container img:nth-child(4) {
+	height: 350px;
+	width: 320px;
+}
+
+.fest-container img:nth-child(6) {
+	height: 350px;
+	width: 300px;
+}
+
+.fest-container img:nth-child(5) {
+	height: 350px;
+	width: 400px;
+}
+
+#beneficio {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+.con-b {
+	height: 550px;
+	width: 1000px;
+
+	position: absolute;
+	top: 0px;
+}
+.container-ben {
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	background: #d8d9da;
+	border-radius: 1rem;
+}
+
+.ben1 {
+	position: absolute;
+	left: 100px;
+	top: 80px;
+}
+
+.ben2 {
+	position: absolute;
+	top: 50px;
+	left: 320px;
+}
+.ben3 {
+	position: absolute;
+	top: 220px;
+	left: 400px;
+}
+.ben4 {
+	position: absolute;
+	top: 60px;
+	left: 580px;
+}
+.ben5 {
+	position: absolute;
+	top: 250px;
+	left: 640px;
+}
+.ben6 {
+	position: absolute;
+	top: 280px;
+	left: 160px;
+}
+
+.container-ben p {
+	display: none;
+}
+
+.container-ben:hover {
+	z-index: 2;
+	box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+	border: 3px solid black;
+	background: #61677a;
+	transition: 0.4s;
+}
+.container-ben:hover h1 {
+	display: none;
+}
+.container-ben:hover p {
+	display: flex;
+	padding: 40px;
+	font-size: 20px;
+	color: black;
+	text-align: center;
 }

@@ -1,0 +1,86 @@
+@media (max-width: 1400px) {
+	header {
+		width: 100%;
+	}
+	.navbar {
+		display: flex;
+	}
+	.casamiento-container img:nth-child(2) {
+		width: 330px;
+	}
+	.casamiento-container img:nth-child(6) {
+		display: none;
+	}
+	.casamiento-container img:nth-child(5) {
+		display: none;
+	}
+	.book-container img:nth-child(1) {
+		display: none;
+	}
+	.book-container img:nth-child(5) {
+		width: 300px;
+	}
+}
+@media (max-width: 992px) {
+	header {
+		width: 100%;
+	}
+	.muestras {
+		display: flex;
+		justify-content: center;
+		gap: 25px;
+	}
+	.navbarlab {
+		display: flex;
+		font-size: 30px;
+	}
+	#toggle-menu {
+		display: none;
+	}
+	.navbar {
+		background: rgb(255, 255, 255);
+		background: linear-gradient(
+			342deg,
+			rgba(255, 255, 255, 1) 0%,
+			rgba(27, 40, 154, 1) 46%,
+			rgba(14, 21, 47, 1) 100%
+		);
+		width: 30%;
+		height: 100vh;
+		position: absolute;
+		top: 60px;
+		display: none;
+	}
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		position: none;
+	}
+	#toggle-menu:checked ~ .navbar {
+		display: flex;
+	}
+
+	.im-me {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		background: none;
+		padding: 20px;
+		display: none;
+		top: -80px;
+	}
+	.im-me a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#image-menu {
+		display: none;
+	}
+	#image-menu:checked ~ .im-me {
+		display: flex;
+	}
+	.navbar li:nth-child(8) {
+		color: black;
+	}
+}

@@ -5,7 +5,7 @@
 }
 
 body {
-	min-width: 992px;
+	min-width: 1200px;
 	background-color: rgb(253, 252, 238);
 	display: flex;
 	flex-direction: column;
@@ -19,7 +19,7 @@ main {
 }
 
 header {
-	width: 100vw;
+	width: 100%;
 	height: 60px;
 	background: rgb(1, 1, 52);
 	display: flex;
@@ -43,7 +43,7 @@ header {
 	color: white;
 	list-style: none;
 	font-size: 20px;
-	position: relative;
+	/* position: relative; */
 }
 
 .navbar li {
@@ -54,11 +54,22 @@ header {
 	color: white;
 	text-decoration: none;
 }
+
+.navbarlab,
+#toggle-menu {
+	display: none;
+}
+
 .image-label {
 	color: white;
 	cursor: pointer;
 }
 
+.men {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
 .im-me {
 	position: absolute;
 	display: flex;
@@ -68,6 +79,7 @@ header {
 	background: rgb(1, 1, 52);
 	padding: 20px;
 	display: none;
+	top: 0px;
 }
 .im-me a {
 	color: white;
@@ -218,7 +230,6 @@ header {
 	height: 400px;
 	width: 80%;
 
-	/* padding-top: 80px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;

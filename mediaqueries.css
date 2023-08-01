@@ -1,7 +1,11 @@
 @media (max-width: 1400px) {
 	header {
+		width: 100vw;
+	}
+	body {
 		width: 100%;
 	}
+
 	.navbar {
 		display: flex;
 	}
@@ -23,7 +27,7 @@
 }
 @media (max-width: 992px) {
 	header {
-		width: 100%;
+		width: 100vw;
 	}
 	.muestras {
 		display: flex;
@@ -84,5 +88,26 @@
 	}
 	.navbar li:nth-child(8) {
 		color: black;
+	}
+
+	#casamiento,
+	#book15,
+	#fest {
+		width: 80vw;
+	}
+	.book-container img:nth-child(4) {
+		display: none;
+	}
+
+	.fest-container img:nth-child(1) {
+		height: 300px;
+		width: 200px;
+	}
+	.fest-container img:nth-child(2) {
+		height: 300px;
+		width: 450px;
+	}
+	.fest-container img:nth-child(3) {
+		display: none;
 	}
 }

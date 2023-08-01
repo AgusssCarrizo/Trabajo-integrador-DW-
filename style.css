@@ -19,7 +19,7 @@ main {
 }
 
 header {
-	width: 100%;
+	width: 100vw;
 	height: 60px;
 	background: rgb(1, 1, 52);
 	display: flex;
@@ -205,15 +205,16 @@ header {
 }
 #hero {
 	display: flex;
-	width: 70%;
-	gap: 200px;
+	align-items: center;
+	width: 100vh;
+	gap: 50px;
 	margin: 50px 0;
 }
 
 .info {
 	font-size: 20px;
 	text-align: justify;
-	width: 400px;
+	width: 600px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -565,6 +566,9 @@ header {
 	text-align: center;
 }
 
+footer {
+	width: 100vw;
+}
 .contacto {
 	display: flex;
 	width: 100%;

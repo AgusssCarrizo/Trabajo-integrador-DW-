@@ -33,6 +33,8 @@
 	.navbarlab {
 		display: flex;
 		font-size: 30px;
+		color: white;
+		padding-left: 20px;
 	}
 	#toggle-menu {
 		display: none;

@@ -211,6 +211,9 @@ header {
 	margin: 50px 0;
 }
 
+.perfil img {
+	animation: izq-der 2s;
+}
 .info {
 	font-size: 20px;
 	text-align: justify;
@@ -268,18 +271,21 @@ header {
 .container:nth-child(1) {
 	background-image: url(/img/Casamiento/container.jpg);
 	background-size: cover;
+	animation: izq-der 2s;
 }
 
 .container:nth-child(2) {
 	background-image: url(/img/Books-15/quince.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	animation: scale 2s;
 }
 .container:nth-child(3) {
 	background-image: url(/img/FIESTA/Fiesta.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 80%;
+	animation: der-izq 2s;
 }
 
 .container:hover {

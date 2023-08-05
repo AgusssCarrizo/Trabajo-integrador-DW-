@@ -31,6 +31,10 @@ header {
 	position: fixed;
 	z-index: 3;
 }
+header img {
+	height: 80px;
+	width: 150px;
+}
 
 .navbar {
 	height: 80%;
@@ -191,7 +195,8 @@ header {
 	height: 30px;
 	border: 1px solid black;
 	border-radius: 1.2rem;
-	background: linear-gradient();
+	animation: fade 5s;
+	box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .fondo {
 	height: 100%;
@@ -515,6 +520,7 @@ header {
 	position: relative;
 	top: 0px;
 }
+
 .container-ben {
 	width: 250px;
 	height: 250px;
@@ -536,6 +542,9 @@ header {
 	animation: derben 4s forwards;
 	background: black;
 }
+.ben1 h1 {
+	animation: fade 0.5s ease-in, slide-up 4s ease-in-out;
+}
 
 .ben2 {
 	position: absolute;
@@ -545,6 +554,9 @@ header {
 	animation-delay: 0.5s;
 	background: black;
 }
+.ben2 h1 {
+	animation: fade 0.5s ease-in, slide-up 4.5s ease-in-out;
+}
 .ben3 {
 	position: absolute;
 	top: 220px;
@@ -553,6 +565,10 @@ header {
 	animation-delay: 2s;
 	background: black;
 }
+.ben3 h1 {
+	animation: fade 0.5s ease-in, slide-up 6s ease-in-out;
+}
+
 .ben4 {
 	position: absolute;
 	top: 60px;
@@ -561,6 +577,9 @@ header {
 
 	left: 580px;
 	background: black;
+}
+.ben4 h1 {
+	animation: fade 0.5s ease-in, slide-up 5s ease-in-out;
 }
 .ben5 {
 	position: absolute;
@@ -571,6 +590,9 @@ header {
 	left: 640px;
 	background: black;
 }
+.ben5 h1 {
+	animation: fade 0.5s ease-in, slide-up 7.5s ease-in-out;
+}
 .ben6 {
 	position: absolute;
 	top: 280px;
@@ -578,6 +600,9 @@ header {
 	animation: derben 4s forwards;
 	animation-delay: 1.5s;
 	background: black;
+}
+.ben6 h1 {
+	animation: fade 0.5s ease-in, slide-up 5.5s ease-in-out;
 }
 
 .container-ben p {
@@ -589,7 +614,6 @@ header {
 	box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
 	border: 3px solid black;
 	background: #61677a;
-	transition: 0.4s;
 }
 .container-ben:hover h1 {
 	display: none;

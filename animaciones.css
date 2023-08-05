@@ -76,10 +76,16 @@ html {
 @keyframes derben {
 	0% {
 		transform: rotateY(180deg);
-		background: black;
+		background-image: url(/img/logo/logo-con-fondo.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
-	20% {
-		background: black;
+	1.% {
+		background-image: url(/img/logo/logo-con-fondo.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: none;
 	}
 
 	100% {

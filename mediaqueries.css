@@ -324,3 +324,42 @@
 		top: 500px;
 	}
 }
+@media (max-width: 576px) {
+	.container-ben {
+		width: 220px;
+		height: 220px;
+	}
+	.container-ben:hover p {text-align: justify;
+		font-size: 17px;}
+	.con-b {
+		width: 100%;
+		margin-bottom: 230px;
+		
+
+	}
+
+	.ben1 {
+		left: -90px;
+		top: 80px;
+	}
+	.ben2 {
+		left: 100px;
+		top: 90px;
+	}
+	.ben4 {
+		left: -85px;
+		top: 300px;
+	}
+	.ben6 {
+		left: 110px;
+	}
+	.ben3 {
+		left: -90px;
+		top: 500px;
+	}
+	.ben5 {
+		left: 90px;
+		top: 500px;
+	}
+}
+}

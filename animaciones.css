@@ -81,7 +81,7 @@ html {
 		background-size: cover;
 		background-position: center;
 	}
-	1.% {
+	1% {
 		background-image: url(/img/logo/logo-con-fondo.png);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -90,6 +90,6 @@ html {
 
 	100% {
 		transform: rotateY(360deg);
-		background: #d8d9da;
+		background: #5a86ff;
 	}
 }

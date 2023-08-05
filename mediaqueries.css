@@ -8,14 +8,21 @@
 
 	.navbar {
 		display: flex;
+		margin-right: 40px;
+	}
+	.muestras {
+		display: flex;
+		justify-content: center;
+		gap: 25px;
 	}
 	.casamiento-container img:nth-child(2) {
 		width: 330px;
 	}
-	.casamiento-container img:nth-child(6) {
+
+	.casamiento-container img:nth-child(1) {
 		display: none;
 	}
-	.casamiento-container img:nth-child(5) {
+	.casamiento-container img:nth-child(4) {
 		display: none;
 	}
 	.book-container img:nth-child(1) {
@@ -24,16 +31,62 @@
 	.book-container img:nth-child(5) {
 		width: 300px;
 	}
+	.book-container img:nth-child(6) {
+		display: none;
+	}
+	.fest-container img:nth-child(6) {
+		display: none;
+	}
+	.fest-container img:nth-child(1) {
+		display: none;
+	}
 }
 @media (max-width: 992px) {
 	header {
 		width: 100vw;
 	}
+	body {
+		width: 100vw;
+	}
+	footer {
+		width: 100vw;
+	}
+	main {
+		width: 100vw;
+	}
+	#hero {
+		width: 80%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.info {
+		width: 40%;
+	}
+	.perfil img {
+		width: 100%;
+	}
+	#trabajos {
+		margin-bottom: 1200px;
+	}
 	.muestras {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		gap: 25px;
+		height: auto;
 	}
+	#casamiento,
+	#fest,
+	#book15 {
+		animation: none;
+		/* animation: izq der 1.5s forwards; */
+	}
+	.container {
+		width: 400px;
+		height: 500px;
+	}
+
 	.navbarlab {
 		display: flex;
 		font-size: 30px;
@@ -66,6 +119,12 @@
 		display: flex;
 	}
 
+	.muestras {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+
 	.im-me {
 		position: relative;
 		display: flex;
@@ -95,6 +154,23 @@
 	#fest {
 		width: 80vw;
 	}
+	.casamiento-container img:nth-child(2) {
+		height: 300px;
+		width: 250px;
+	}
+	.casamiento-container img:nth-child(3) {
+		height: 300px;
+		width: 350px;
+	}
+	.casamiento-container img:nth-child(5) {
+		height: 300px;
+		width: 350px;
+	}
+	.casamiento-container img:nth-child(6) {
+		height: 300px;
+		width: 250px;
+	}
+
 	.book-container img:nth-child(4) {
 		display: none;
 	}
@@ -107,7 +183,144 @@
 		height: 300px;
 		width: 450px;
 	}
+	.book-container img:nth-child(4) {
+		display: flex;
+		height: 300px;
+		width: 250px;
+	}
+	.book-container img:nth-child(5) {
+		height: 300px;
+		width: 250px;
+	}
+
+	.fest-container img:nth-child(2) {
+		height: 300px;
+		width: 380px;
+	}
 	.fest-container img:nth-child(3) {
+		height: 300px;
+		width: 250px;
+	}
+	.fest-container img:nth-child(4) {
+		height: 300px;
+		width: 250px;
+	}
+	.fest-container img:nth-child(5) {
+		height: 300px;
+		width: 300px;
+	}
+	.con-b {
+		width: 80%;
+		margin-bottom: 230px;
+	}
+	.ben1 {
+		left: 0px;
+		top: 80px;
+	}
+	.ben2 {
+		left: 180px;
+	}
+	.ben4 {
+		left: 10px;
+		top: 300px;
+	}
+	.ben6 {
+		left: 170px;
+	}
+	.ben3 {
+		left: 5px;
+		top: 450px;
+	}
+	.ben5 {
+		left: 200px;
+		top: 500px;
+	}
+}
+
+@media (max-width: 825px) {
+	#hero {
+		flex-direction: column;
+	}
+	.info {
+		width: 100%;
+	}
+	.muestras {
+		display: flex;
+		justify-content: center;
+		gap: 25px;
+	}
+	.casamiento-container img:nth-child(2) {
+		height: 350px;
+		width: 300px;
+	}
+	.casamiento-container img:nth-child(3) {
+		height: 300px;
+		width: 400px;
+	}
+	.casamiento-container img:nth-child(5) {
+		height: 300px;
+		width: 400px;
+	}
+	.casamiento-container img:nth-child(6) {
+		height: 370px;
+		width: 350px;
+	}
+
+	.book-container img:nth-child(4) {
 		display: none;
+	}
+
+	.book-container img:nth-child(4) {
+		display: flex;
+		height: 350px;
+		width: 300px;
+	}
+	.book-container img:nth-child(5) {
+		height: 350px;
+		width: 300px;
+	}
+
+	.fest-container img:nth-child(2) {
+		height: 300px;
+		width: 380px;
+	}
+	.fest-container img:nth-child(3) {
+		height: 350px;
+		width: 300px;
+	}
+	.fest-container img:nth-child(4) {
+		height: 350px;
+		width: 350px;
+	}
+	.fest-container img:nth-child(5) {
+		height: 375px;
+		width: 350px;
+	}
+	.con-b {
+		width: 80%;
+		margin-bottom: 230px;
+	}
+
+	.ben1 {
+		left: -80px;
+		top: 80px;
+	}
+	.ben2 {
+		left: 150px;
+	}
+	.ben4 {
+		left: -70px;
+		top: 300px;
+	}
+	.ben6 {
+		left: 160px;
+	}
+	.ben3 {
+		left: -90px;
+		top: 500px;
+	}
+	.ben5 {
+		left: 150px;
+		top: 500px;
 	}
 }

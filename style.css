@@ -8,12 +8,16 @@ h1 {
 	animation: fade 0.5s ease-in, slide-up 1s ease-in-out;
 }
 body {
-	min-width: 1200px;
+	width: 100vw;
 	background-color: rgb(253, 252, 238);
 	display: flex;
+
 	flex-direction: column;
+	width: 100vw;
 }
 main {
+	width: 100vw;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -50,7 +54,6 @@ header img {
 	color: white;
 	list-style: none;
 	font-size: 20px;
-	/* position: relative; */
 }
 
 .navbar li {
@@ -102,8 +105,9 @@ header img {
 #login {
 	height: 100vh;
 	width: 100%;
-	background-image: url(/img/Diseño\ sin\ título.png);
+	background-image: url(/img/Diseño-sin-titulo.png);
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
@@ -613,7 +617,6 @@ header img {
 	z-index: 2;
 	box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
 	border: 3px solid black;
-	background: #61677a;
 }
 .container-ben:hover h1 {
 	display: none;
@@ -624,6 +627,7 @@ header img {
 	font-size: 20px;
 	color: black;
 	text-align: center;
+	animation: fade 0.5s ease-in;
 }
 
 footer {

@@ -5,17 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="animaciones.css" />
-		<link rel="stylesheet" href="register.html" />
+		<link rel="stylesheet" href="mediaqueries.css" />
+		<link rel="stylesheet" href="login.html" />
 		<script
 			src="https://kit.fontawesome.com/ac3ec41e50.js"
 			crossorigin="anonymous"></script>
-		<title>Document</title>
 	</head>
 	<body>
-		<section id="login">
+		<section id="register">
 			<div class="login-container">
-				<h1>INICIA SESION</h1>
-				<div class="login-send">
+				<h1>REGISTRATE</h1>
+				<div class="register-send">
 					<label for="email"
 						>Correo electronico
 						<input type="email" placeholder="ejemplo@gmail.com" id="email" />
@@ -27,14 +27,21 @@
 							placeholder=" • • • • • • • • • • • • • •"
 							id="pass" />
 					</label>
-					<label class="recordarme" for="">
+					<label for="pass"
+						>Confirmar contraseña
+						<input
+							type="password"
+							placeholder=" • • • • • • • • • • • • • •"
+							id="pass" />
+					</label>
+
+					<label for="">
 						<input type="checkbox" />
 						Recordarme
 					</label>
 				</div>
 				<div class="botones">
-					<button><a href="register.html">REGISTRARSE</a></button>
-					<button>ENVIAR <i class="fa-solid fa-right-long"></i></button>
+					<button>REGISTRARSE</button>
 				</div>
 				<a class="volver" href="/index.html"
 					><i class="fa-solid fa-arrow-left"></i

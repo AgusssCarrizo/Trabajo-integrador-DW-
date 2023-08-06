@@ -102,7 +102,8 @@ header img {
 #image-menu:checked ~ .im-me {
 	display: flex;
 }
-#login {
+#login,
+#register {
 	height: 100vh;
 	width: 100%;
 	background-image: url(/img/Diseño-sin-titulo.png);
@@ -121,7 +122,7 @@ header img {
 	backdrop-filter: blur(7px);
 	-webkit-backdrop-filter: blur(7px);
 	width: 30%;
-	height: 50%;
+	height: 70%;
 	border-radius: 1.3rem;
 	display: flex;
 	flex-direction: column;
@@ -147,10 +148,34 @@ header img {
 
 .login-send label:nth-child(3) {
 	display: flex;
+
 	font-size: 15px;
 	animation: izq-der 2s;
 }
 
+.register-send {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.register-send label:nth-child(1) {
+	animation: izq-der 1s;
+}
+.register-send label:nth-child(2) {
+	animation: izq-der 1.5s;
+}
+
+.register-send label:nth-child(3) {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	animation: izq-der 2s;
+}
+
+.login-container label:nth-child(4) {
+	animation: izq-der 3s;
+}
 .login-container a:nth-child(4) {
 	text-decoration: none;
 	color: rgb(29, 29, 29);
@@ -188,10 +213,6 @@ header img {
 
 #pass::placeholder {
 	color: rgb(151, 151, 151);
-	/* content: "";
-   background: white;
-   top: -10px; */
-	/* height: 0.1px; */
 }
 
 .login-container button {

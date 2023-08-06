@@ -365,15 +365,26 @@
 	.container-ben:hover p {
 		text-align: justify;
 		font-size: 17px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.con-b {
 		width: 100%;
 		margin-bottom: 230px;
 	}
+	.con-b h1 {
+		font-size: 18px;
+	}
 
 	.ben1 {
 		left: -80px;
-		top: 80px;
+		top: 40px;
+		height: 200px;
+		width: 200px;
+		overflow: scroll;
+		scroll-behavior: none;
 	}
 	.ben2 {
 		left: 120px;

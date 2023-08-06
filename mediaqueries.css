@@ -390,7 +390,7 @@
 	}
 
 	.ben1 {
-		left: -120px;
+		left: -110px;
 		top: 40px;
 		height: 200px;
 		width: 200px;
@@ -398,7 +398,7 @@
 		scroll-behavior: none;
 	}
 	.ben2 {
-		left: 60px;
+		left: 65px;
 		top: 50px;
 		height: 200px;
 		width: 200px;
@@ -406,7 +406,7 @@
 		scroll-behavior: none;
 	}
 	.ben4 {
-		left: -115px;
+		left: -105px;
 		top: 200px;
 		height: 200px;
 		width: 200px;
@@ -415,14 +415,14 @@
 	}
 	.ben6 {
 		top: 210px;
-		left: 70px;
+		left: 80px;
 		height: 200px;
 		width: 200px;
 		overflow: scroll;
 		scroll-behavior: none;
 	}
 	.ben3 {
-		left: -110px;
+		left: -100px;
 		top: 350px;
 		height: 200px;
 		width: 200px;

@@ -97,7 +97,7 @@
 			342deg,
 			rgba(255, 255, 255, 1) 0%,
 			rgba(27, 40, 154, 1) 46%,
-			rgba(14, 21, 47, 1) 100%
+			rgba(14, 21, -- 47, 1) 100%
 		);
 		width: 30%;
 		height: 100vh;
@@ -332,6 +332,9 @@
 	main {
 		width: 100vw;
 	}
+	.login-container {
+		width: 80vw;
+	}
 	.navbarlab {
 		display: flex;
 		font-size: 30px;
@@ -368,6 +371,9 @@
 		width: 300px;
 		height: 300px;
 	}
+	#trabajos {
+		margin-bottom: 500px;
+	}
 	.benefe .container-ben {
 		width: 50%;
 		height: 220px;
@@ -383,7 +389,7 @@
 	}
 	.con-b {
 		width: 70%;
-		margin-bottom: 230px;
+		margin-bottom: 100px;
 	}
 	.con-b h1 {
 		font-size: 18px;
@@ -392,16 +398,16 @@
 	.ben1 {
 		left: -110px;
 		top: 40px;
-		height: 200px;
-		width: 200px;
+		height: 180px;
+		width: 180px;
 		overflow: scroll;
 		scroll-behavior: none;
 	}
 	.ben2 {
 		left: 65px;
 		top: 50px;
-		height: 200px;
-		width: 200px;
+		height: 180px;
+		width: 180px;
 		overflow: scroll;
 		scroll-behavior: none;
 	}
@@ -416,7 +422,7 @@
 	.ben6 {
 		top: 210px;
 		left: 80px;
-		height: 200px;
+		height: 180px;
 		width: 200px;
 		overflow: scroll;
 		scroll-behavior: none;
@@ -424,16 +430,16 @@
 	.ben3 {
 		left: -100px;
 		top: 350px;
-		height: 200px;
-		width: 200px;
+		height: 180px;
+		width: 180px;
 		overflow: scroll;
 		scroll-behavior: none;
 	}
 	.ben5 {
 		left: 60px;
 		top: 360px;
-		height: 200px;
-		width: 200px;
+		height: 180px;
+		width: 180px;
 		overflow: scroll;
 		scroll-behavior: none;
 	}
